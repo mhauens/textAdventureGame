@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Game {
+public class Test {
     public static Scanner scanner = new Scanner(System.in);
     public static boolean foundCreature = false;
     public static boolean foundItem = false;
