@@ -5,6 +5,8 @@ import Game.info.Player;
 
 import java.util.Scanner;
 
+import static Game.utils.Constants.println;
+
 /**
  * TODO: Write JavaDoc - responsibility, purpose, collaborators.
  *
@@ -18,11 +20,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Player player = new Player();
 
-        System.out.println("------------------------------------------");
-        System.out.println("- Opionen      | Information\n");
-        System.out.println("- 1: Neu       | Neues Spiel erstellen.");
-        System.out.println("- 2: Laden     | vorhandenes Spiel laden.");
-        System.out.println("- 3: Beenden   | Spiel beenden.");
+        println("------------------------------------------");
+        println("- Opionen      | Information\n");
+        println("- 1: Neu       | Neues Spiel erstellen.");
+        println("- 2: Laden     | vorhandenes Spiel laden.");
+        println("- 3: Beenden   | Spiel beenden.");
 
         int options = scanner.nextInt();
         try {
@@ -38,7 +40,7 @@ public class Main {
                     break;
             }
         } catch (Exception e) {
-            System.out.println("Fehler in der Main class: " + e.getLocalizedMessage());
+            println("Fehler in der Main class: " + e.getLocalizedMessage());
         }
     }
 }
