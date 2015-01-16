@@ -1,33 +1,13 @@
-package Game.info;
-
-import java.util.List;
+package Game.figures;
 
 /**
  * @author hauensma
  * Information about the Player
  */
-public class Player {
-    public String username;
-    public String[] items;
+public class Player extends Being {
     public boolean hasPet = false;
     public String petName = "";
     public int experience;
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String[] getItems() {
-        return items;
-    }
-
-    public void setItems(String[] items) {
-        this.items = items;
-    }
 
     public boolean isHasPet() {
         return hasPet;
@@ -51,5 +31,10 @@ public class Player {
 
     public void setExperience(int experience) {
         this.experience = experience;
+    }
+
+    @Override
+    protected int fight() {
+        return 0;  //To change body of implemented methods use File | Settings | File Templates.
     }
 }

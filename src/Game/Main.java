@@ -1,7 +1,7 @@
 package Game;
 
 import Game.system.Core;
-import Game.info.Player;
+import Game.figures.Player;
 
 import java.util.Scanner;
 

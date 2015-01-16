@@ -1,6 +1,6 @@
 package Game.system;
 
-import Game.info.Player;
+import Game.figures.Player;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class Core {
         Scanner scanner = new Scanner(System.in);
         println("Bitte gib deinem Charakter einen Namen: ");
         String username = scanner.next();
-        player.setUsername(username);
+        player.setName(username);
         String petName = player.getPetName();
         boolean hasPet = player.isHasPet();
         File file = new File(username+".csv");
@@ -52,10 +52,5 @@ public class Core {
         println("2: Osten");
         println("3: Süden");
         println("4: Westen");
-
-    }
-
-    public static void fight() {
-
     }
 }
