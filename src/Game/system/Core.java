@@ -1,6 +1,6 @@
 package Game.system;
 
-import Game.figures.Player;
+import Game.figures.humanLike.Player;
 
 import java.io.File;
 import java.io.IOException;

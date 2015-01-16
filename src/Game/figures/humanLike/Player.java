@@ -1,13 +1,15 @@
-package Game.figures;
+package Game.figures.humanLike;
+
+import Game.figures.Being;
+import Game.figures.Fighter;
 
 /**
  * @author hauensma
  * Information about the Player
  */
-public class Player extends Being {
+public class Player extends Fighter {
     public boolean hasPet = false;
     public String petName = "";
-    public int experience;
 
     public boolean isHasPet() {
         return hasPet;
@@ -25,16 +27,23 @@ public class Player extends Being {
         this.petName = petName;
     }
 
-    public int getExperience() {
-        return experience;
-    }
-
-    public void setExperience(int experience) {
-        this.experience = experience;
+    @Override
+    public int fight() {
+        return 0;
     }
 
     @Override
-    protected int fight() {
-        return 0;  //To change body of implemented methods use File | Settings | File Templates.
+    public int experience() {
+        return 0;
+    }
+
+    @Override
+    public int strength() {
+        return 0;
+    }
+
+    @Override
+    public int health() {
+        return 0;
     }
 }

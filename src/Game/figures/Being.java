@@ -6,8 +6,8 @@ package Game.figures;
  * @author hauensma
  */
 public abstract class Being {
-    protected String name;
-    protected String[] items;
+    public String name;
+    public String[] items;
 
     public String getName() {
         return name;
@@ -24,6 +24,4 @@ public abstract class Being {
     public void setItems(String[] items) {
         this.items = items;
     }
-
-    protected abstract int fight();
 }
