@@ -1,14 +1,14 @@
 package Game.figures.humanLike;
 
-import Game.figures.Being;
-import Game.figures.Fighter;
+import Game.figures.categories.Carrier;
+import Game.figures.categories.Fighter;
 
 /**
  * TODO: Write JavaDoc - responsibility, purpose, collaborators.
  *
  * @author hauensma
  */
-public class Creature extends Fighter {
+public class Creature extends Carrier {
     @Override
     public int fight() {
         return 0;

@@ -1,4 +1,6 @@
-package Game.figures;
+package Game.figures.categories;
+
+import Game.figures.Being;
 
 /**
  * TODO: Write JavaDoc - responsibility, purpose, collaborators.

@@ -1,6 +1,6 @@
 package Game.figures.animal;
 
-import Game.figures.Fighter;
+import Game.figures.categories.Fighter;
 
 /**
  * TODO: Write JavaDoc - responsibility, purpose, collaborators.

@@ -1,13 +1,13 @@
 package Game.figures.humanLike;
 
-import Game.figures.Being;
-import Game.figures.Fighter;
+import Game.figures.categories.Carrier;
+import Game.figures.categories.Fighter;
 
 /**
  * @author hauensma
  * Information about the Player
  */
-public class Player extends Fighter {
+public class Player extends Carrier {
     public boolean hasPet = false;
     public String petName = "";
 
