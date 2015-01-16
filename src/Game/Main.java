@@ -8,12 +8,10 @@ import java.util.Scanner;
 import static Game.utils.Constants.println;
 
 /**
- * TODO: Write JavaDoc - responsibility, purpose, collaborators.
- *
  * @author hauensma
  * This is the Main class it'll
  * ask the user what he would wants to do
- * 1) create a game 2) load a game
+ * 1: create a game 2: load a game 3: exit
  */
 public class Main {
     public static void main(String[] args) {

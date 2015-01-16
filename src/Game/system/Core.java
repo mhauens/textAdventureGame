@@ -9,9 +9,7 @@ import java.util.Scanner;
 
 import static Game.utils.Constants.println;
 
-/**
- * TODO: Write JavaDoc - responsibility, purpose, collaborators.
- *
+/** *
  * @author hauensma
  * Creates, Saves and Loads a game
  */
@@ -33,8 +31,9 @@ public class Core {
             PrintWriter pw = new PrintWriter(file);
             pw.write(username+";");
             pw.write(petName+";");
-            pw.write(hasPet+";");
+            pw.write(String.valueOf(hasPet)+";");
             pw.close();
+            println("Das Spiel wurde erstellt.");
         }
     }
 
@@ -43,6 +42,20 @@ public class Core {
     }
 
     public static void loadGame(Player player) {
+
+    }
+
+    public static void move() {
+        println("----------------------");
+        println("Wohin willst du gehen?");
+        println("1: Norden");
+        println("2: Osten");
+        println("3: Süden");
+        println("4: Westen");
+
+    }
+
+    public static void fight() {
 
     }
 }
