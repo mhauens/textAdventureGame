@@ -1,13 +1,12 @@
 package Game.figures.humanLike;
 
-import Game.figures.categories.Carrier;
-import Game.figures.categories.Fighter;
+import Game.figures.categories.ItemEnabled;
 
 /**
  * @author hauensma
  * Information about the Player
  */
-public class Player extends Carrier {
+public class Player extends ItemEnabled {
     public boolean hasPet = false;
     public String petName = "";
 

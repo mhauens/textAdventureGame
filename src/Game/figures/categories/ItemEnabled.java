@@ -5,7 +5,7 @@ package Game.figures.categories;
  *
  * @author Martin
  */
-public abstract class Carrier extends Fighter{
+public abstract class ItemEnabled extends Fighter{
     public String[] items;
 
     public String[] getItems() {
