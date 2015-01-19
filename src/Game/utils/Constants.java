@@ -26,4 +26,6 @@ public class Constants {
         int outcome = (int) (Math.random()*amount+1);
         return outcome;
     }
+
+
 }

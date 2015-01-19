@@ -1,4 +1,4 @@
-package Game.tile;
+package Game.map.tile;
 
 /**
  * TODO: Write JavaDoc - responsibility, purpose, collaborators.
@@ -7,8 +7,4 @@ package Game.tile;
  */
 public class GrassTile extends Tile {
 
-    @Override
-    public void tick() {
-
-    }
 }

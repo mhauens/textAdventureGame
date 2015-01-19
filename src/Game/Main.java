@@ -29,6 +29,7 @@ public class Main {
             switch(options) {
                 case 1:
                     Core.createGame(player);
+                    Core.playGame(player);
                     break;
                 case 2:
                     Core.loadGame(player);

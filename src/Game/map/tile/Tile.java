@@ -1,4 +1,4 @@
-package Game.tile;
+package Game.map.tile;
 
 /**
  * TODO: Write JavaDoc - responsibility, purpose, collaborators.
@@ -6,7 +6,7 @@ package Game.tile;
  * @author Martin
  */
 public abstract class Tile {
-    protected int x, y;
+    public int size = 10;
 
-    public abstract void tick();
+
 }
